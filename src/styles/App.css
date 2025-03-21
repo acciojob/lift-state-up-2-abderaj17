@@ -1,13 +1,13 @@
 
 .parent{
     width: 400px;
-    height: 150px;
+    height: 180px;
     background-color: rgb(15, 201, 61);
     margin: 20px;
 }
 
 .showText{
-    margin: 30px;
+    
     
 }
 .child{
