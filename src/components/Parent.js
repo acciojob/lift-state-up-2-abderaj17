@@ -4,15 +4,15 @@ const Parent = () => {
     const [text, setText] = useState("");
 
     const handleChange = (e)=>{
-        setText = e.target.value;
-        text(setText);
+      setText(e.target.value);
+     
     }
     
   return (
     <div>
         <div className='parent'>
          <h1>Parent Component</h1>
-           <div className='showText' onChange={handleChange}></div>
+           <div className='showText'>{text}</div>
 
            <div className='child'>
            <h2>Child Component</h2>
